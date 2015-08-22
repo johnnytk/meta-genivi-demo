@@ -1,9 +1,9 @@
-meta-ivi-demo, the Yocto layer for the GENIVI Demo Platform
+meta-ivi-demo: the Yocto layer for the GENIVI Demo Platform
 ===========================================================
 
-This layer's purpose is to provide a GENIVI Demo Platform (GDP) reference
-image build. The layer supports cross-architecture application development
-using QEMU emulation and a SDK.
+This layer provides a GENIVI Demo Platform (GDP)image build. The layer
+supports cross-architecture application development using QEMU
+emulation and an SDK.
 
 Please see the  
 [MAINTAINERS](http://git.projects.genivi.org/?p=meta-genivi-demo.git;a=blob;f=MAINTAINERS)
@@ -15,9 +15,9 @@ code, submit patches, report bugs, answer questions on our mailing lists and
 review and edit our documentation and much more.
 
 Subscribe to the mailing list
-    [here](https://lists.genivi.org/mailman/listinfo/genivi-meta-ivi).  
+    [here](https://lists.genivi.org/mailman/listinfo/genivi-projects). 
 View or Report bugs
-    [here](https://bugs.genivi.org/buglist.cgi?product=meta-ivi).  
+    [here](http://bugs.genivi.org/describecomponents.cgi?product=GENIVI%20Demonstration%20Platform). 
 Read or Edit the wiki
     [here](http://wiki.projects.genivi.org/index.php/meta-ivi).  
 For information about the Yocto Project, see the
@@ -25,7 +25,7 @@ For information about the Yocto Project, see the
 For information about the Yocto GENIVI Baseline, see the
     [Yocto GENIVI Baseline website](http://projects.genivi.org/GENIVI_Baselines/meta-ivi).  
 For information about the Yocto GENIVI Demo Platform, see the
-    [Yocto GENIVI Demo Platform website](http://wiki.projects.genivi.org/index.php/Intrepid_-_Yocto_GENIVI_Demo_Platform).
+    [Yocto GENIVI Demo Platform website](http://wiki.projects.genivi.org/index.php/GENIVI_Demo_Platform).
 
 Layer Dependencies
 ------------------
@@ -47,17 +47,11 @@ URI: git://git.yoctoproject.org/poky
 > branch:   dizzy  
 > revision: b630f2f53645fa8f5890b4732f251c354ad525a7
 
-## The Renesas R-Car Gen2 (Koelsch) board depends in addition on: ##
-
-URI: git://github.com/slawr/meta-renesas.git
-> branch:   genivi-7.0-bsp-1.5.0  
-> revision: 0991fba7024ab57634390813b0aa92d5e330345b
-
-## The Renesas R-Car Gen2 (Porter) board depends in addition on: ##
+## The Renesas R-Car Gen2 Koelsch & Porter boards depend in addition on: ##
 
 URI: git://github.com/slawr/meta-renesas.git
 > branch:   genivi-7.0-bsp-1.8.0
-> revision: 6e829fe6e422793bbb05ec563c8544154c0e9bd8
+> revision: b42c0c82d628cc3e7af728df668cf4459a50621f
 
 Supported Machines
 ------------------
